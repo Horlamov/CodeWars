@@ -15,3 +15,5 @@ function sumMix(x){
     }
     return sum
 }
+
+console.log('sumMix; ', sumMix(['4', 6 ,'5']))
