@@ -18,13 +18,13 @@
 
 
 //  ✅ SOLUTION
-let marks = [1,1,1,1,1,1,1,2];
+
+let marks = [1,1,1,1,10,1,1,2];
 
 function getAverage(marks){
     let average = 0;
     for (let i = 0; i < marks.length; i++) {
-        average = average + marks[i]
-        console.log(average)
+        average += marks[i]
     }
         return  Math.floor(average/marks.length)
 
