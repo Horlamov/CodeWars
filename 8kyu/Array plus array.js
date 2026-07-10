@@ -13,11 +13,15 @@
 
 
 //  ✅ SOLUTION
+arr1 = [1,2,3]
+function arrayPlusArray(arr1) {
+    for (let i = 0; i < arr1.length; i++) {
+        let a = 0;
+        a = parseInt(arr1[i])
+        console.log(a)
 
-function arrayPlusArray(arr1, arr2) {
+    }
 
-
-
-    return arr1 + arr2;
 }
 
+console.log(arrayPlusArray([1, 2, 3]));
