@@ -13,15 +13,20 @@
 
 
 //  ✅ SOLUTION
-arr1 = [1,2,3]
-function arrayPlusArray(arr1) {
-    for (let i = 0; i < arr1.length; i++) {
-        let a = 0;
-        a = parseInt(arr1[i])
-        console.log(a)
+function arrayPlusArray(arr1, arr2) {
+    let a = 0;
 
+    for (let i = 0; i < arr1.length; i++) {
+
+         a = a + arr1[i];
     }
 
+    for (let i = 0; i < arr2.length; i++) {
+
+        a = a + arr2[i];
+
+    }
+    return a;
 }
 
-console.log(arrayPlusArray([1, 2, 3]));
+console.log(arrayPlusArray([1, 2, 3],[4,5,6]));
